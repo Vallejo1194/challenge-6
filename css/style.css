@@ -27,4 +27,10 @@ header {
 .btn-primary{ 
 
     margin-left: 60px;
+    
+}
+
+.col {
+
+    background-color:rgb(47, 180, 47);
 }

@@ -123,6 +123,7 @@ function actualConditions(city) {
 
 
 // Second API to request UVI and forecast and display them
+
 function secondAPI(lat , lon) {
   var requestSecondUrl = "https://api.openweathermap.org/data/3.0/onecall?lat=" +lat+ "&lon=" +lon+ "&exclude=hourly,minutely&units=metric&appid=" +apiId;
 
